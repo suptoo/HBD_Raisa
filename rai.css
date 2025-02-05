@@ -109,3 +109,34 @@ body {
     from { transform: scale(0); }
     to { transform: scale(1); }
 }
+/* Mobile-Specific (for devices up to 767px) */
+@media only screen and (max-width: 767px) {
+    .container {
+        padding: 0.5rem;
+    }
+    
+    .countdown-item span {
+        font-size: 2rem;
+    }
+    
+    .countdown-item p {
+        font-size: 1rem;
+    }
+    
+    .birthday-title {
+        font-size: 2rem;
+    }
+    
+    .gift-box {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .message {
+        font-size: 1rem;
+    }
+    
+    .photo-gallery {
+        grid-template-columns: 1fr;
+    }
+}
